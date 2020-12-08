@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaPedidos.Domain", "SistemaPedidos\SistemaPedidos.Domain.csproj", "{BA643AC6-43DC-4988-A043-64B4E3BB271A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaPedidos.Domain", "SistemaPedidos.Domain\SistemaPedidos.Domain.csproj", "{BA643AC6-43DC-4988-A043-64B4E3BB271A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaPedidos.Infrastructure", "SistemaPedidos.Infrastructure\SistemaPedidos.Infrastructure.csproj", "{D577FD6A-54EA-4B1A-B4BC-8809A1550FAF}"
 EndProject
