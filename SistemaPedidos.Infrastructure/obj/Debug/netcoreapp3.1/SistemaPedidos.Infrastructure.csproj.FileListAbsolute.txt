@@ -1,5 +1,0 @@
-C:\Projetos\Pessoal\SistemaPedidos\SistemaPedidos.Infrastructure\bin\Debug\netcoreapp3.1\SistemaPedidos.Infrastructure.deps.json
-C:\Projetos\Pessoal\SistemaPedidos\SistemaPedidos.Infrastructure\bin\Debug\netcoreapp3.1\SistemaPedidos.Infrastructure.dll
-C:\Projetos\Pessoal\SistemaPedidos\SistemaPedidos.Infrastructure\obj\Debug\netcoreapp3.1\SistemaPedidos.Infrastructure.csprojAssemblyReference.cache
-C:\Projetos\Pessoal\SistemaPedidos\SistemaPedidos.Infrastructure\obj\Debug\netcoreapp3.1\SistemaPedidos.Infrastructure.AssemblyInfoInputs.cache
-C:\Projetos\Pessoal\SistemaPedidos\SistemaPedidos.Infrastructure\obj\Debug\netcoreapp3.1\SistemaPedidos.Infrastructure.AssemblyInfo.cs
