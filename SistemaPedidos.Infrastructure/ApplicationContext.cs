@@ -16,7 +16,13 @@ namespace SistemaPedidos.Infrastructure
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data source=(localdb)\\mssqllocaldb;Initial Catalog=SistemaPedidos;Integrated Security=true");
+            //optionsBuilder.UseSqlServer("Server=(LocalDB)\\MSSQLLocalDB;Integrated Security=true;AttachDbFileName=C:\\Program Files (x86)\\SQLServer\\SistemaPedidos2.mdf;Trusted_connection=true;");
+            optionsBuilder.UseSqlServer("Data source=(localdb)\\mssqllocaldb;Initial Catalog=SistemaPedidos;Trusted_connection=true;",
+                           p => p.EnableRetryOnFailure(
+                               maxRetryCount: 2,
+                               maxRetryDelay: 
+                               TimeSpan.FromSeconds(5),
+                               errorNumbersToAdd: null));
 
         }
 
